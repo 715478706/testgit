@@ -5,7 +5,7 @@
     <classes>
       <class name="testgit.com.LaunchChrome">
         <methods>
-          <include name="searchBaidu"/>
+          <include name="searchBaidu3"/>
         </methods>
       </class> <!-- testgit.com.LaunchChrome -->
     </classes>
