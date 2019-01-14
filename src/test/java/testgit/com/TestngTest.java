@@ -3,7 +3,7 @@ package testgit.com;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class LaunchChrome {
+public class TestngTest {
 
 	
 	@Test

@@ -5,7 +5,9 @@
     <classes>
       <class name="testgit.com.LaunchChrome">
         <methods>
-          <include name="searchBaidu3"/>
+          <include name="releaseDriver"/>
+          <include name="startChorme"/>
+          <include name="searchBaidu"/>
         </methods>
       </class> <!-- testgit.com.LaunchChrome -->
     </classes>
