@@ -27,7 +27,7 @@ public class LaunchChrome {
 	@Test
 	public void searchBaidu3(){
 		System.out.println("准备开始");
-		Assert.assertEquals(2,2,"我现在变成true");
+		Assert.assertEquals(1,2,"我现在变成true");
 		
 	}
 
