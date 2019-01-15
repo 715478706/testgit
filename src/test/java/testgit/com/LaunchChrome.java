@@ -4,6 +4,7 @@ import static org.testng.Assert.assertEquals;
 
 import java.util.Arrays;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -25,11 +26,12 @@ public class LaunchChrome {
 	@Test
 	public void searchBaidu(){
 		cwd.manage().window().maximize();
-		cwd.get("http://www.baidu.com");
+		cwd.get("https://www.baidu.com");
 		try {
-			Thread.sleep(5000);
 			System.out.println(cwd.getTitle());
 			assertEquals(cwd.getTitle(), "百度一下，你就知道");
+			cwd.findElement(By.id("kw")).sendKeys("无双");
+			Thread.sleep(10000);
 			
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
