@@ -13,7 +13,7 @@ public class TestngTest {
 		System.out.println("@BeforeClass开始");
 		Assert.assertNotEquals(1,2);
 		
-	}
+	} 
 	@BeforeSuite
 	public void searchBaidu(){
 		System.out.println("@BeforeSuite开始");
