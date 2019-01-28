@@ -31,7 +31,7 @@ public class TestngTest {
 	public void searchBaidu3(){
 		System.out.println("准备开始");
 		Assert.assertEquals(2,2,"我现在变成true");
-		
+
 	}
 	@Test
 	public void searchBaidu4(){
