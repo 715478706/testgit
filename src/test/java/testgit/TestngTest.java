@@ -1,4 +1,4 @@
-package testgit.com;
+package testgit;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
@@ -49,6 +49,12 @@ public class TestngTest {
 	@Test
 	public void searchBaidu4(){
 		System.out.println("准备开始searchBaidu4");
+		Assert.assertEquals(2,2,"我现在变成true");
+		
+	}
+	@Test
+	public void searchBaidu7(){
+		System.out.println("准备开始searchBaidu7");
 		Assert.assertEquals(2,2,"我现在变成true");
 		
 	}
